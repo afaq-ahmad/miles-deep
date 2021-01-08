@@ -40,23 +40,23 @@ It will convert the video into 1 image/second and print out only the labels (>0.
 	>pip install -r requirements.txt
 
 ### optional arguments:
-  -h, --help            show this help message and exit
-  -vp VIDEO_PATH, --video_path VIDEO_PATH
-                        Input video path
-  -ovp OUTVIDEO_PATH, --outvideo_path OUTVIDEO_PATH
-                        output video path
-  -c CTG_IN, --ctg_in CTG_IN
-                        Categories you want to
-                        save,categories:['blowjob_handjob', 'cunnilingus',
-                        'other', 'sex_back', 'sex_front', 'titfuck'], if you
-                        want to use multiple then add with comma like
-                        sex_back,sex_front
-  -x, --sexual          This edits out all the non-sexual scenes from input
-                        video
-  -ss SKIP_S, --skip_s SKIP_S
-                        Skip seconds to remove the small flickering in
-                        categories if appear do to false classification,
-                        (default:3)
+	  -h, --help            show this help message and exit
+	  -vp VIDEO_PATH, --video_path VIDEO_PATH
+				Input video path
+	  -ovp OUTVIDEO_PATH, --outvideo_path OUTVIDEO_PATH
+				output video path
+	  -c CTG_IN, --ctg_in CTG_IN
+				Categories you want to
+				save,categories:['blowjob_handjob', 'cunnilingus',
+				'other', 'sex_back', 'sex_front', 'titfuck'], if you
+				want to use multiple then add with comma like
+				sex_back,sex_front
+	  -x, --sexual          This edits out all the non-sexual scenes from input
+				video
+	  -ss SKIP_S, --skip_s SKIP_S
+				Skip seconds to remove the small flickering in
+				categories if appear do to false classification,
+				(default:3)
 						
 						
 #Usage
