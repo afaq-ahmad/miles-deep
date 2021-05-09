@@ -75,7 +75,7 @@ else:
     data1 = ranges(np.unique(data/Frame_reading_fps).astype(int))
     data1=np.array(data1)
     Croped_save_points=data1[np.where((data1[:,1]-data1[:,0])>parsed.skip_s)[0]]
-    crop_time='+'.join(["between(t,"+str(st1)+","+str(st2)+")" for st1,st2 in Croped_save_points])
+    crop_time='+'.join(["between(t\,"+str(st1)+"\,"+str(st2)+")" for st1,st2 in Croped_save_points])
     vidp="select='"+crop_time+"',setpts=N/FRAME_RATE/TB"
     audp="aselect='"+crop_time+"',asetpts=N/SR/TB"
     os.system("ffmpeg -i {} -vf {} -af {} -y {}".format(parsed.video_path,vidp,audp,parsed.outvideo_path))
